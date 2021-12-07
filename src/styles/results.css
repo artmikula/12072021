@@ -1,0 +1,72 @@
+.results {
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.recommendations,
+.recommendations_map {
+  width: 50%;
+  margin: 2%;
+  padding: 1%;
+}
+
+.title {
+  width: 80%;
+  background-color: rgb(155, 89, 182);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5%;
+  padding: 1%;
+}
+
+.recommend-inner {
+  background-color: lightgray;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommend {
+  background-color: #fff;
+  height: 80%;
+  width: 80%;
+  padding: 5%;
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 0.9em;
+}
+
+.recommend p {
+  color: rgb(179, 179, 179);
+  font-size: 0.9em;
+}
+.recommend h3 {
+  font-weight: normal;
+}
+.recommend label {
+  color: #689bed;
+}
+.buttons {
+  outline: 1px solid #fff;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons input {
+  font-size: 1.1em;
+  /* padding: 4%; */
+  /* margin: 0 10px 0 10px; */
+  border-radius: 20px;
+}
+
+.buttons input:hover {
+  color: #689bed;
+}
